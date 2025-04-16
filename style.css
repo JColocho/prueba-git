@@ -1,0 +1,255 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+body {
+  background-color: black;
+}
+
+.container {
+  width: 90%;
+  margin: 20px auto;
+  overflow: hidden;
+}
+
+.card {
+  font-family: "Open Sans", sans-serif;
+  color: white;
+  background-color: black;
+  border: 2px solid #ff0000;
+  box-shadow: rgba(255, 0, 0, 0.4392156863) 0px 0px 5px;
+  height: auto;
+  padding: 20px;
+}
+
+/**Numero de columna a usar en el contenedor*/
+.col-1 {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 20px;
+}
+
+.col-2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.col-3 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.col-4 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.col-5 {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 20px;
+}
+
+.col-6 {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 20px;
+}
+
+.col-7 {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 20px;
+}
+
+.col-8 {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  gap: 20px;
+}
+
+.col-9 {
+  display: grid;
+  grid-template-columns: repeat(9, 1fr);
+  gap: 20px;
+}
+
+.col-10 {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  gap: 20px;
+}
+
+.col-11 {
+  display: grid;
+  grid-template-columns: repeat(11, 1fr);
+  gap: 20px;
+}
+
+.col-12 {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 20px;
+}
+
+/**Numero de columnas que usara el elemento*/
+.span-col-1 {
+  grid-column: span 1;
+}
+
+.span-col-2 {
+  grid-column: span 2;
+}
+
+.span-col-3 {
+  grid-column: span 3;
+}
+
+.span-col-4 {
+  grid-column: span 4;
+}
+
+.span-col-5 {
+  grid-column: span 5;
+}
+
+.span-col-6 {
+  grid-column: span 6;
+}
+
+.span-col-7 {
+  grid-column: span 7;
+}
+
+.span-col-8 {
+  grid-column: span 8;
+}
+
+.span-col-9 {
+  grid-column: span 9;
+}
+
+.span-col-10 {
+  grid-column: span 10;
+}
+
+.span-col-11 {
+  grid-column: span 11;
+}
+
+.span-col-12 {
+  grid-column: span 12;
+}
+
+/**Numero de filas que usara el contanedor*/
+.row-1 {
+  display: grid;
+  grid-template-row: repeat(1, 1fr);
+}
+
+.row-2 {
+  display: grid;
+  grid-template-row: repeat(2, 1fr);
+}
+
+.row-3 {
+  display: grid;
+  grid-template-row: repeat(3, 1fr);
+}
+
+.row-4 {
+  display: grid;
+  grid-template-row: repeat(4, 1fr);
+}
+
+.row-5 {
+  display: grid;
+  grid-template-row: repeat(5, 1fr);
+}
+
+.row-6 {
+  display: grid;
+  grid-template-row: repeat(6, 1fr);
+  gap: 20px;
+}
+
+.row-7 {
+  display: grid;
+  grid-template-row: repeat(7, 1fr);
+}
+
+.row-8 {
+  display: grid;
+  grid-template-row: repeat(8, 1fr);
+}
+
+.row-9 {
+  display: grid;
+  grid-template-row: repeat(9, 1fr);
+}
+
+.row-10 {
+  display: grid;
+  grid-template-row: repeat(10, 1fr);
+}
+
+.row-11 {
+  display: grid;
+  grid-template-row: repeat(11, 1fr);
+}
+
+.row-12 {
+  display: grid;
+  grid-template-row: repeat(12, 1fr);
+}
+
+/**Espacio de filas que usara el elemento*/
+.span-row-1 {
+  grid-row: span 1;
+}
+
+.span-row-2 {
+  grid-row: span 2;
+}
+
+.span-row-3 {
+  grid-row: span 3;
+}
+
+.span-row-4 {
+  grid-row: span 4;
+}
+
+.span-row-5 {
+  grid-row: span 5;
+}
+
+.span-row-6 {
+  grid-row: span 6;
+}
+
+.span-row-7 {
+  grid-row: span 7;
+}
+
+.span-row-8 {
+  grid-row: span 8;
+}
+
+.span-row-9 {
+  grid-row: span 9;
+}
+
+.span-row-10 {
+  grid-row: span 10;
+}
+
+.span-row-11 {
+  grid-row: span 11;
+}
+
+.span-row-12 {
+  grid-row: span 12;
+}
+
+/*# sourceMappingURL=style.css.map */
